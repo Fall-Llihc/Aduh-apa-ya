@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Result — Aduh, apa ya?</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📰%3C/text%3E%3C/svg%3E" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" />
+<link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <i class="ti ti-sparkles"></i>
+        <span>Aduh, apa ya?</span>
+      </div>
+      <nav class="nav">
+        <a href="./index.html" class="nav-link">Classify</a>
+        <a href="./model.html" class="nav-link">Model details</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-result">
+    <a href="./index.html" class="back-link">
+      <i class="ti ti-arrow-left"></i>
+      <span>Try another text</span>
+    </a>
+
+    <div id="resultContainer" class="result-grid">
+    </div>
+
+    <section class="legend legend-small" aria-label="Category color legend">
+      <span class="chip chip-business"><i class="ti ti-briefcase"></i> business</span>
+      <span class="chip chip-entertainment"><i class="ti ti-movie"></i> entertainment</span>
+      <span class="chip chip-politics"><i class="ti ti-building-bank"></i> politics</span>
+      <span class="chip chip-sport"><i class="ti ti-ball-football"></i> sport</span>
+      <span class="chip chip-tech"><i class="ti ti-device-laptop"></i> tech</span>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <div class="container footer-inner">
+      <span class="muted small">© 2026 Kelompok 8 'Aduh' — Tugas Besar Text Mining</span>
+      <div class="footer-links">
+        <a href="./model.html">Stacking ensemble</a>
+        <a href="./model.html#tfidf">TF-IDF pipeline</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/config.js"></script>
+  <script src="./assets/js/result.js"></script>
+</body>
+</html>

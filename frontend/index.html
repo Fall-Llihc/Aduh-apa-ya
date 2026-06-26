@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aduh, apa ya? — BBC News Classifier</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📰%3C/text%3E%3C/svg%3E" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" />
+<link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <i class="ti ti-sparkles"></i>
+        <span>Aduh, apa ya?</span>
+      </div>
+      <nav class="nav">
+        <a href="./index.html" class="nav-link active">Classify</a>
+        <a href="./model.html" class="nav-link">Model details</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-input">
+    <section class="hero">
+      <h1 class="display">What kind of news is this?</h1>
+      <p class="body-lg muted">Paste any article or sentence. The ensemble classifier predicts the category and highlights the words that drove the decision.</p>
+    </section>
+
+    <section class="legend" aria-label="Category color legend">
+      <span class="chip chip-business"><i class="ti ti-briefcase"></i> business</span>
+      <span class="chip chip-entertainment"><i class="ti ti-movie"></i> entertainment</span>
+      <span class="chip chip-politics"><i class="ti ti-building-bank"></i> politics</span>
+      <span class="chip chip-sport"><i class="ti ti-ball-football"></i> sport</span>
+      <span class="chip chip-tech"><i class="ti ti-device-laptop"></i> tech</span>
+    </section>
+
+    <section class="input-card" id="inputCard">
+      <textarea
+        id="inputText"
+        rows="8"
+        placeholder="The tech giant announced its quarterly earnings, beating analyst forecasts..."
+        aria-label="News text to classify"
+      ></textarea>
+      <div class="input-footer">
+        <div class="footer-left">
+          <button id="clearBtn" class="icon-btn" aria-label="Clear input" title="Clear">
+            <i class="ti ti-trash"></i>
+          </button>
+          <span id="charCount" class="muted small">0 characters</span>
+        </div>
+        <button id="classifyBtn" class="btn-primary">
+          <i class="ti ti-sparkles"></i>
+          <span>Classify</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="examples">
+      <p class="label-sm muted">Try an example</p>
+      <div class="example-row">
+        <button class="example-chip" data-example="Federal Reserve hints at upcoming interest rate cut as inflation cools across major economies and consumer spending shows signs of slowing.">Stock market</button>
+        <button class="example-chip" data-example="Manchester United stunned defending champions Manchester City with a late winner in a thrilling Premier League derby at Old Trafford.">Football match</button>
+        <button class="example-chip" data-example="Government unveils sweeping new artificial intelligence regulation requiring transparency reports from major tech companies operating in the country.">Tech regulation</button>
+        <button class="example-chip" data-example="Oscar nominations announced today with several surprise picks dominating the best picture category and excluding fan favorites.">Movie awards</button>
+        <button class="example-chip" data-example="Saya sering bermain sepak bola bersama teman-teman di lapangan setiap akhir pekan.">Try non-English</button>
+      </div>
+    </section>
+
+    <div id="errorBox" class="error-box hidden"></div>
+    <div id="loadingBox" class="loading-box hidden">
+      <div class="spinner"></div>
+      <span>Classifying...</span>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <div class="container footer-inner">
+      <span class="muted small">© 2026 Kelompok 8 'Aduh' — Tugas Besar Text Mining</span>
+      <div class="footer-links">
+        <a href="./model.html">Stacking ensemble</a>
+        <a href="./model.html#tfidf">TF-IDF pipeline</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/config.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

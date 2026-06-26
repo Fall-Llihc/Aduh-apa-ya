@@ -1,0 +1,1627 @@
+{
+  "classes": [
+    "business",
+    "entertainment",
+    "politics",
+    "sport",
+    "tech"
+  ],
+  "features": {
+    "business": [
+      {
+        "word": "firm",
+        "weight": 1.5429426360372953
+      },
+      {
+        "word": "company",
+        "weight": 1.3478284142744785
+      },
+      {
+        "word": "bank",
+        "weight": 1.2152275333641336
+      },
+      {
+        "word": "market",
+        "weight": 1.0565835541689081
+      },
+      {
+        "word": "economic",
+        "weight": 0.999069940676802
+      },
+      {
+        "word": "investment",
+        "weight": 0.9795551999641054
+      },
+      {
+        "word": "share",
+        "weight": 0.9336616081775326
+      },
+      {
+        "word": "economy",
+        "weight": 0.924368390763367
+      },
+      {
+        "word": "price",
+        "weight": 0.9050968660132396
+      },
+      {
+        "word": "business",
+        "weight": 0.903992606536486
+      },
+      {
+        "word": "investor",
+        "weight": 0.8671561133480239
+      },
+      {
+        "word": "analyst",
+        "weight": 0.8518276978068607
+      },
+      {
+        "word": "profit",
+        "weight": 0.8133332694951562
+      },
+      {
+        "word": "growth",
+        "weight": 0.7411857825556033
+      },
+      {
+        "word": "oil",
+        "weight": 0.7210363335770753
+      },
+      {
+        "word": "trade",
+        "weight": 0.6914690959141311
+      },
+      {
+        "word": "airline",
+        "weight": 0.6829720389666598
+      },
+      {
+        "word": "shareholder",
+        "weight": 0.6778073606104182
+      },
+      {
+        "word": "rate",
+        "weight": 0.6697967402160675
+      },
+      {
+        "word": "financial",
+        "weight": 0.6635606011735623
+      },
+      {
+        "word": "euro",
+        "weight": 0.6359436857828733
+      },
+      {
+        "word": "deficit",
+        "weight": 0.606300017503356
+      },
+      {
+        "word": "takeover",
+        "weight": 0.5782298937590982
+      },
+      {
+        "word": "executive",
+        "weight": 0.5675221763576054
+      },
+      {
+        "word": "dollar",
+        "weight": 0.5565191275707432
+      },
+      {
+        "word": "fraud",
+        "weight": 0.5502046851657263
+      },
+      {
+        "word": "country",
+        "weight": 0.548420757949874
+      },
+      {
+        "word": "chief executive",
+        "weight": 0.541232961528842
+      },
+      {
+        "word": "biggest",
+        "weight": 0.53230428025362
+      },
+      {
+        "word": "car",
+        "weight": 0.5299511853047245
+      },
+      {
+        "word": "sale",
+        "weight": 0.5294199452426149
+      },
+      {
+        "word": "chief",
+        "weight": 0.5258225505701823
+      },
+      {
+        "word": "largest",
+        "weight": 0.5170387482337123
+      },
+      {
+        "word": "stake",
+        "weight": 0.5034042882508398
+      },
+      {
+        "word": "ministry",
+        "weight": 0.5010495507722197
+      },
+      {
+        "word": "debt",
+        "weight": 0.5003839139711683
+      },
+      {
+        "word": "cost",
+        "weight": 0.4959530678383347
+      },
+      {
+        "word": "rise",
+        "weight": 0.49113844773372023
+      },
+      {
+        "word": "stock",
+        "weight": 0.4889569799186906
+      },
+      {
+        "word": "imf",
+        "weight": 0.4843442922725854
+      },
+      {
+        "word": "export",
+        "weight": 0.4814743450361365
+      },
+      {
+        "word": "sector",
+        "weight": 0.46778595476728085
+      },
+      {
+        "word": "december",
+        "weight": 0.4674622402256527
+      },
+      {
+        "word": "china",
+        "weight": 0.4661299941610068
+      },
+      {
+        "word": "foreign",
+        "weight": 0.46411560523851153
+      },
+      {
+        "word": "product",
+        "weight": 0.46214436738634895
+      },
+      {
+        "word": "rose",
+        "weight": 0.4578027845829388
+      },
+      {
+        "word": "giant",
+        "weight": 0.44933187248685874
+      },
+      {
+        "word": "saudi",
+        "weight": 0.4380065581248911
+      },
+      {
+        "word": "earnings",
+        "weight": 0.4346281635853228
+      },
+      {
+        "word": "plant",
+        "weight": 0.4337533795671775
+      },
+      {
+        "word": "unit",
+        "weight": 0.43077511773405913
+      },
+      {
+        "word": "economist",
+        "weight": 0.4287661866746897
+      },
+      {
+        "word": "president",
+        "weight": 0.42439895021483054
+      },
+      {
+        "word": "india",
+        "weight": 0.41876840125112047
+      },
+      {
+        "word": "exchange",
+        "weight": 0.41845231685445816
+      },
+      {
+        "word": "state",
+        "weight": 0.4141236571140995
+      },
+      {
+        "word": "deutsche",
+        "weight": 0.41281856220035557
+      },
+      {
+        "word": "finance",
+        "weight": 0.40606770604204573
+      },
+      {
+        "word": "demand",
+        "weight": 0.40330082126746747
+      },
+      {
+        "word": "wto",
+        "weight": 0.3979936204479376
+      },
+      {
+        "word": "german",
+        "weight": 0.39741631141368844
+      },
+      {
+        "word": "creditor",
+        "weight": 0.39519315551987877
+      },
+      {
+        "word": "low",
+        "weight": 0.3898532872043805
+      },
+      {
+        "word": "stock market",
+        "weight": 0.3894776472906181
+      },
+      {
+        "word": "bid",
+        "weight": 0.38937539784109426
+      },
+      {
+        "word": "private",
+        "weight": 0.38271997461809204
+      },
+      {
+        "word": "fall",
+        "weight": 0.38101674227548415
+      },
+      {
+        "word": "accounting",
+        "weight": 0.3791052687497294
+      },
+      {
+        "word": "bankruptcy",
+        "weight": 0.3770050887312994
+      },
+      {
+        "word": "brand",
+        "weight": 0.37670644776170825
+      },
+      {
+        "word": "charge",
+        "weight": 0.3762877818945315
+      },
+      {
+        "word": "job",
+        "weight": 0.36975404902931247
+      },
+      {
+        "word": "output",
+        "weight": 0.3671732124400878
+      },
+      {
+        "word": "approval",
+        "weight": 0.36664826667123696
+      },
+      {
+        "word": "nearly",
+        "weight": 0.36653528551256154
+      },
+      {
+        "word": "supply",
+        "weight": 0.36535658994916625
+      },
+      {
+        "word": "fell",
+        "weight": 0.3640802059968299
+      },
+      {
+        "word": "month",
+        "weight": 0.3615579866337896
+      },
+      {
+        "word": "deal",
+        "weight": 0.35404486807931296
+      }
+    ],
+    "entertainment": [
+      {
+        "word": "film",
+        "weight": 1.9564958852292995
+      },
+      {
+        "word": "star",
+        "weight": 1.3572876827878908
+      },
+      {
+        "word": "singer",
+        "weight": 1.199471709906097
+      },
+      {
+        "word": "show",
+        "weight": 1.1911400843911004
+      },
+      {
+        "word": "music",
+        "weight": 1.1302786668201117
+      },
+      {
+        "word": "album",
+        "weight": 1.0996508918756698
+      },
+      {
+        "word": "band",
+        "weight": 1.0507300328291034
+      },
+      {
+        "word": "actor",
+        "weight": 1.0337275968124628
+      },
+      {
+        "word": "song",
+        "weight": 0.9185801183173835
+      },
+      {
+        "word": "award",
+        "weight": 0.8988890194151935
+      },
+      {
+        "word": "festival",
+        "weight": 0.8193638471523867
+      },
+      {
+        "word": "oscar",
+        "weight": 0.7752205942470106
+      },
+      {
+        "word": "chart",
+        "weight": 0.7596184931169402
+      },
+      {
+        "word": "pop",
+        "weight": 0.6888635066663706
+      },
+      {
+        "word": "series",
+        "weight": 0.6475340058055362
+      },
+      {
+        "word": "single",
+        "weight": 0.6458590130829178
+      },
+      {
+        "word": "artist",
+        "weight": 0.6427532175073902
+      },
+      {
+        "word": "comedy",
+        "weight": 0.6317940972365232
+      },
+      {
+        "word": "musical",
+        "weight": 0.624749300159179
+      },
+      {
+        "word": "box office",
+        "weight": 0.6047052673903274
+      },
+      {
+        "word": "celebrity",
+        "weight": 0.5886717105723623
+      },
+      {
+        "word": "actress",
+        "weight": 0.5754715172210981
+      },
+      {
+        "word": "musician",
+        "weight": 0.5737716878074164
+      },
+      {
+        "word": "hollywood",
+        "weight": 0.565173535186623
+      },
+      {
+        "word": "producer",
+        "weight": 0.5403687542652882
+      },
+      {
+        "word": "box",
+        "weight": 0.5277789616787352
+      },
+      {
+        "word": "movie",
+        "weight": 0.5266846064906757
+      },
+      {
+        "word": "ticket",
+        "weight": 0.5236264730820391
+      },
+      {
+        "word": "book",
+        "weight": 0.5173733736604094
+      },
+      {
+        "word": "night",
+        "weight": 0.511616763836154
+      },
+      {
+        "word": "contestant",
+        "weight": 0.4906102705268393
+      },
+      {
+        "word": "theatre",
+        "weight": 0.4855033203426333
+      },
+      {
+        "word": "brother",
+        "weight": 0.47884766565995923
+      },
+      {
+        "word": "organiser",
+        "weight": 0.4778086271848805
+      },
+      {
+        "word": "studio",
+        "weight": 0.4710978577034569
+      },
+      {
+        "word": "best",
+        "weight": 0.47006331474697144
+      },
+      {
+        "word": "rock",
+        "weight": 0.46975387427263043
+      },
+      {
+        "word": "television",
+        "weight": 0.4683462956810373
+      },
+      {
+        "word": "death",
+        "weight": 0.46630925400355566
+      },
+      {
+        "word": "concert",
+        "weight": 0.44580089915957977
+      },
+      {
+        "word": "gallery",
+        "weight": 0.4421471042269251
+      },
+      {
+        "word": "itv",
+        "weight": 0.4367463228603972
+      },
+      {
+        "word": "released",
+        "weight": 0.43424548545094416
+      },
+      {
+        "word": "starring",
+        "weight": 0.4177978103233623
+      },
+      {
+        "word": "drama",
+        "weight": 0.41482965042864295
+      },
+      {
+        "word": "audience",
+        "weight": 0.40808277607051635
+      },
+      {
+        "word": "love",
+        "weight": 0.4051199677866723
+      },
+      {
+        "word": "charity",
+        "weight": 0.40277493744583065
+      },
+      {
+        "word": "sold",
+        "weight": 0.3950757757824554
+      },
+      {
+        "word": "feature",
+        "weight": 0.39426370209356043
+      },
+      {
+        "word": "nomination",
+        "weight": 0.3922228235956752
+      },
+      {
+        "word": "hit",
+        "weight": 0.3881882459044131
+      },
+      {
+        "word": "dance",
+        "weight": 0.3866681526593362
+      },
+      {
+        "word": "museum",
+        "weight": 0.38438232623572877
+      },
+      {
+        "word": "channel",
+        "weight": 0.38275141905804505
+      },
+      {
+        "word": "director",
+        "weight": 0.3793708950863669
+      },
+      {
+        "word": "guitarist",
+        "weight": 0.37887287707890066
+      },
+      {
+        "word": "viewer",
+        "weight": 0.3781874420101388
+      },
+      {
+        "word": "success",
+        "weight": 0.3771274459571988
+      },
+      {
+        "word": "nominated",
+        "weight": 0.37594927639271736
+      },
+      {
+        "word": "broadcast",
+        "weight": 0.3754961189271688
+      },
+      {
+        "word": "dead",
+        "weight": 0.37434502225261224
+      },
+      {
+        "word": "academy",
+        "weight": 0.37373495405176255
+      },
+      {
+        "word": "scene",
+        "weight": 0.36993118308570205
+      },
+      {
+        "word": "tate",
+        "weight": 0.36961058943938857
+      },
+      {
+        "word": "shooting",
+        "weight": 0.367338044968021
+      },
+      {
+        "word": "los angeles",
+        "weight": 0.36593609466806365
+      },
+      {
+        "word": "angeles",
+        "weight": 0.36593609466806365
+      },
+      {
+        "word": "prize",
+        "weight": 0.364684195008672
+      },
+      {
+        "word": "boy",
+        "weight": 0.3634529494141356
+      },
+      {
+        "word": "elvis",
+        "weight": 0.3597468215683607
+      },
+      {
+        "word": "murder",
+        "weight": 0.35969511810018556
+      },
+      {
+        "word": "release",
+        "weight": 0.35810038567686897
+      },
+      {
+        "word": "man",
+        "weight": 0.35495275170162316
+      },
+      {
+        "word": "lee",
+        "weight": 0.3458500210548063
+      },
+      {
+        "word": "special",
+        "weight": 0.34574376911063287
+      },
+      {
+        "word": "winner",
+        "weight": 0.3402508045984893
+      },
+      {
+        "word": "original",
+        "weight": 0.34013294925341275
+      },
+      {
+        "word": "screened",
+        "weight": 0.33990422920581886
+      },
+      {
+        "word": "shot",
+        "weight": 0.3362781205562876
+      }
+    ],
+    "politics": [
+      {
+        "word": "labour",
+        "weight": 1.3107897057114204
+      },
+      {
+        "word": "party",
+        "weight": 1.3037193356300354
+      },
+      {
+        "word": "blair",
+        "weight": 1.262596306785019
+      },
+      {
+        "word": "minister",
+        "weight": 1.1305926540034292
+      },
+      {
+        "word": "election",
+        "weight": 1.0370703449042686
+      },
+      {
+        "word": "tory",
+        "weight": 0.9896748129472883
+      },
+      {
+        "word": "secretary",
+        "weight": 0.9312473731706999
+      },
+      {
+        "word": "government",
+        "weight": 0.8624298511442802
+      },
+      {
+        "word": "leader",
+        "weight": 0.7264306382081794
+      },
+      {
+        "word": "britain",
+        "weight": 0.7106310196604726
+      },
+      {
+        "word": "common",
+        "weight": 0.6971035816511022
+      },
+      {
+        "word": "police",
+        "weight": 0.68535906467458
+      },
+      {
+        "word": "tony blair",
+        "weight": 0.6826609692336137
+      },
+      {
+        "word": "mp",
+        "weight": 0.676539423104791
+      },
+      {
+        "word": "straw",
+        "weight": 0.6621947411078343
+      },
+      {
+        "word": "chancellor",
+        "weight": 0.6568020323923444
+      },
+      {
+        "word": "lord",
+        "weight": 0.6479499271214627
+      },
+      {
+        "word": "spokesman",
+        "weight": 0.6422278606139519
+      },
+      {
+        "word": "tony",
+        "weight": 0.6264664659123543
+      },
+      {
+        "word": "conservative",
+        "weight": 0.6063374159794997
+      },
+      {
+        "word": "council",
+        "weight": 0.5647627933555611
+      },
+      {
+        "word": "brown",
+        "weight": 0.5526965222053534
+      },
+      {
+        "word": "prime minister",
+        "weight": 0.5263510790014913
+      },
+      {
+        "word": "ukip",
+        "weight": 0.5231825838612071
+      },
+      {
+        "word": "general election",
+        "weight": 0.5220896378520132
+      },
+      {
+        "word": "plan",
+        "weight": 0.5200034729355938
+      },
+      {
+        "word": "prime",
+        "weight": 0.5181774299974656
+      },
+      {
+        "word": "scottish",
+        "weight": 0.5155410257067709
+      },
+      {
+        "word": "issue",
+        "weight": 0.5041962090284192
+      },
+      {
+        "word": "public",
+        "weight": 0.49426836959895026
+      },
+      {
+        "word": "lib",
+        "weight": 0.48764063221357346
+      },
+      {
+        "word": "child",
+        "weight": 0.48571288055645034
+      },
+      {
+        "word": "school",
+        "weight": 0.48193054006045355
+      },
+      {
+        "word": "member",
+        "weight": 0.48065681719116005
+      },
+      {
+        "word": "rail",
+        "weight": 0.476896375232843
+      },
+      {
+        "word": "bill",
+        "weight": 0.47232701258464566
+      },
+      {
+        "word": "vote",
+        "weight": 0.46952852147406804
+      },
+      {
+        "word": "jack",
+        "weight": 0.468637017344843
+      },
+      {
+        "word": "immigration",
+        "weight": 0.46387529134925604
+      },
+      {
+        "word": "committee",
+        "weight": 0.4577456173358349
+      },
+      {
+        "word": "change",
+        "weight": 0.4574247536138437
+      },
+      {
+        "word": "local",
+        "weight": 0.4496269784462901
+      },
+      {
+        "word": "law",
+        "weight": 0.4424878491527161
+      },
+      {
+        "word": "blunkett",
+        "weight": 0.4411694331957134
+      },
+      {
+        "word": "paper",
+        "weight": 0.435060792939588
+      },
+      {
+        "word": "liberal democrat",
+        "weight": 0.4327444238555992
+      },
+      {
+        "word": "east",
+        "weight": 0.4316274913025253
+      },
+      {
+        "word": "michael",
+        "weight": 0.43143519490075216
+      },
+      {
+        "word": "believe",
+        "weight": 0.4289228694579737
+      },
+      {
+        "word": "foreign secretary",
+        "weight": 0.4268582545986425
+      },
+      {
+        "word": "liberal",
+        "weight": 0.41968151674357645
+      },
+      {
+        "word": "hunt",
+        "weight": 0.4109673569818235
+      },
+      {
+        "word": "howard",
+        "weight": 0.4085874509423489
+      },
+      {
+        "word": "health",
+        "weight": 0.40458547183625343
+      },
+      {
+        "word": "assembly",
+        "weight": 0.39955443159216375
+      },
+      {
+        "word": "shadow",
+        "weight": 0.3984296441025194
+      },
+      {
+        "word": "campaign",
+        "weight": 0.39512708856082596
+      },
+      {
+        "word": "democrat",
+        "weight": 0.3946653898986983
+      },
+      {
+        "word": "wale",
+        "weight": 0.3858870870226968
+      },
+      {
+        "word": "british",
+        "weight": 0.37367517178699594
+      },
+      {
+        "word": "chairman",
+        "weight": 0.3735258683218734
+      },
+      {
+        "word": "home secretary",
+        "weight": 0.3720578440788219
+      },
+      {
+        "word": "politics",
+        "weight": 0.37004872278739703
+      },
+      {
+        "word": "jack straw",
+        "weight": 0.36615033946397124
+      },
+      {
+        "word": "parliament",
+        "weight": 0.3645605595533533
+      },
+      {
+        "word": "england wale",
+        "weight": 0.36261020937743893
+      },
+      {
+        "word": "scotland",
+        "weight": 0.36043225131446793
+      },
+      {
+        "word": "gordon brown",
+        "weight": 0.35852518385292886
+      },
+      {
+        "word": "street",
+        "weight": 0.3579425328733832
+      },
+      {
+        "word": "community",
+        "weight": 0.35550950971533934
+      },
+      {
+        "word": "political",
+        "weight": 0.35489739258418634
+      },
+      {
+        "word": "hunting",
+        "weight": 0.35425755059149017
+      },
+      {
+        "word": "education",
+        "weight": 0.3532771840649919
+      },
+      {
+        "word": "labour party",
+        "weight": 0.3501354997753135
+      },
+      {
+        "word": "dems",
+        "weight": 0.3496507706347414
+      },
+      {
+        "word": "lib dems",
+        "weight": 0.3496507706347414
+      },
+      {
+        "word": "urged",
+        "weight": 0.34792010933812473
+      },
+      {
+        "word": "justice",
+        "weight": 0.3462041936728286
+      },
+      {
+        "word": "general",
+        "weight": 0.3461575423743762
+      },
+      {
+        "word": "anti",
+        "weight": 0.3461261916221441
+      }
+    ],
+    "sport": [
+      {
+        "word": "match",
+        "weight": 1.2021145419093135
+      },
+      {
+        "word": "champion",
+        "weight": 1.0641309593788721
+      },
+      {
+        "word": "game",
+        "weight": 1.0314319415848139
+      },
+      {
+        "word": "coach",
+        "weight": 1.0142525363437958
+      },
+      {
+        "word": "player",
+        "weight": 1.0103278256770603
+      },
+      {
+        "word": "team",
+        "weight": 0.9275108618344522
+      },
+      {
+        "word": "club",
+        "weight": 0.9227129121583303
+      },
+      {
+        "word": "win",
+        "weight": 0.9223391469554866
+      },
+      {
+        "word": "season",
+        "weight": 0.8570069651661338
+      },
+      {
+        "word": "cup",
+        "weight": 0.8215191418357624
+      },
+      {
+        "word": "injury",
+        "weight": 0.7954480897317551
+      },
+      {
+        "word": "chelsea",
+        "weight": 0.7830323036975115
+      },
+      {
+        "word": "olympic",
+        "weight": 0.780881010617096
+      },
+      {
+        "word": "side",
+        "weight": 0.7120107046678509
+      },
+      {
+        "word": "championship",
+        "weight": 0.6633747406194364
+      },
+      {
+        "word": "final",
+        "weight": 0.6576703522197525
+      },
+      {
+        "word": "england",
+        "weight": 0.6507594254626585
+      },
+      {
+        "word": "goal",
+        "weight": 0.6409533832299734
+      },
+      {
+        "word": "rugby",
+        "weight": 0.6165974114284801
+      },
+      {
+        "word": "arsenal",
+        "weight": 0.5974487005964737
+      },
+      {
+        "word": "league",
+        "weight": 0.5874405277650608
+      },
+      {
+        "word": "bos",
+        "weight": 0.5667397052236512
+      },
+      {
+        "word": "seed",
+        "weight": 0.5477319116637774
+      },
+      {
+        "word": "manager",
+        "weight": 0.5360316941318424
+      },
+      {
+        "word": "race",
+        "weight": 0.5279359233380687
+      },
+      {
+        "word": "six nation",
+        "weight": 0.5257001137912303
+      },
+      {
+        "word": "second",
+        "weight": 0.5247612016819047
+      },
+      {
+        "word": "football",
+        "weight": 0.5021389124686644
+      },
+      {
+        "word": "ireland",
+        "weight": 0.5011390225865892
+      },
+      {
+        "word": "madrid",
+        "weight": 0.5006177501461121
+      },
+      {
+        "word": "striker",
+        "weight": 0.4939079812899992
+      },
+      {
+        "word": "ball",
+        "weight": 0.49133641939656303
+      },
+      {
+        "word": "international",
+        "weight": 0.482736681508926
+      },
+      {
+        "word": "athens",
+        "weight": 0.4821709388938969
+      },
+      {
+        "word": "premiership",
+        "weight": 0.4762043751364942
+      },
+      {
+        "word": "athlete",
+        "weight": 0.4724201976521156
+      },
+      {
+        "word": "liverpool",
+        "weight": 0.47162897701028444
+      },
+      {
+        "word": "medal",
+        "weight": 0.47124603920733865
+      },
+      {
+        "word": "doping",
+        "weight": 0.4699551312620577
+      },
+      {
+        "word": "great",
+        "weight": 0.46839868117458733
+      },
+      {
+        "word": "played",
+        "weight": 0.4669090997303755
+      },
+      {
+        "word": "tennis",
+        "weight": 0.46397200340224326
+      },
+      {
+        "word": "athletics",
+        "weight": 0.4611152991886039
+      },
+      {
+        "word": "tournament",
+        "weight": 0.45897762470337616
+      },
+      {
+        "word": "referee",
+        "weight": 0.45747604338953474
+      },
+      {
+        "word": "old",
+        "weight": 0.44732715572947157
+      },
+      {
+        "word": "squad",
+        "weight": 0.4456176492051238
+      },
+      {
+        "word": "six",
+        "weight": 0.4439883568651576
+      },
+      {
+        "word": "chance",
+        "weight": 0.4394685686268768
+      },
+      {
+        "word": "minute",
+        "weight": 0.4383353289501579
+      },
+      {
+        "word": "newcastle",
+        "weight": 0.4356090778562357
+      },
+      {
+        "word": "jones",
+        "weight": 0.43317968488084
+      },
+      {
+        "word": "victory",
+        "weight": 0.4253591204668092
+      },
+      {
+        "word": "fixture",
+        "weight": 0.42424445540957567
+      },
+      {
+        "word": "playing",
+        "weight": 0.42283309622025883
+      },
+      {
+        "word": "test",
+        "weight": 0.41355243267557795
+      },
+      {
+        "word": "tie",
+        "weight": 0.4133853634009239
+      },
+      {
+        "word": "australian open",
+        "weight": 0.40854951912111415
+      },
+      {
+        "word": "winning",
+        "weight": 0.40667101596745786
+      },
+      {
+        "word": "know",
+        "weight": 0.40282614112222875
+      },
+      {
+        "word": "training",
+        "weight": 0.3988969179540174
+      },
+      {
+        "word": "defender",
+        "weight": 0.39635745982562814
+      },
+      {
+        "word": "marathon",
+        "weight": 0.3951108785974198
+      },
+      {
+        "word": "banned",
+        "weight": 0.39297296152444633
+      },
+      {
+        "word": "title",
+        "weight": 0.38687153024252113
+      },
+      {
+        "word": "indoor",
+        "weight": 0.38618406250104914
+      },
+      {
+        "word": "break",
+        "weight": 0.385277802659516
+      },
+      {
+        "word": "summer",
+        "weight": 0.3848364248681895
+      },
+      {
+        "word": "australian",
+        "weight": 0.3838489795385187
+      },
+      {
+        "word": "half",
+        "weight": 0.3818230499297883
+      },
+      {
+        "word": "lot",
+        "weight": 0.38166267767875717
+      },
+      {
+        "word": "pitch",
+        "weight": 0.37049622908680396
+      },
+      {
+        "word": "world",
+        "weight": 0.36832556104277253
+      },
+      {
+        "word": "defeat",
+        "weight": 0.3677241681197752
+      },
+      {
+        "word": "united",
+        "weight": 0.3649364637539053
+      },
+      {
+        "word": "play",
+        "weight": 0.3626978736969501
+      },
+      {
+        "word": "sport",
+        "weight": 0.35601763890982835
+      },
+      {
+        "word": "contract",
+        "weight": 0.35400585587115313
+      },
+      {
+        "word": "lion",
+        "weight": 0.3532106748599426
+      },
+      {
+        "word": "round",
+        "weight": 0.35237354935402243
+      }
+    ],
+    "tech": [
+      {
+        "word": "computer",
+        "weight": 1.36157940133692
+      },
+      {
+        "word": "user",
+        "weight": 1.293645689784164
+      },
+      {
+        "word": "technology",
+        "weight": 1.208641039420989
+      },
+      {
+        "word": "software",
+        "weight": 1.1647732303543448
+      },
+      {
+        "word": "online",
+        "weight": 0.9543655273268506
+      },
+      {
+        "word": "net",
+        "weight": 0.8988989672537764
+      },
+      {
+        "word": "digital",
+        "weight": 0.7986978130549429
+      },
+      {
+        "word": "use",
+        "weight": 0.7798531317892337
+      },
+      {
+        "word": "website",
+        "weight": 0.7542268126517326
+      },
+      {
+        "word": "speed",
+        "weight": 0.7524302664937451
+      },
+      {
+        "word": "service",
+        "weight": 0.7492052243283144
+      },
+      {
+        "word": "microsoft",
+        "weight": 0.7480690135682628
+      },
+      {
+        "word": "web",
+        "weight": 0.7459335151961425
+      },
+      {
+        "word": "site",
+        "weight": 0.7430656562521718
+      },
+      {
+        "word": "using",
+        "weight": 0.7333620928654928
+      },
+      {
+        "word": "mobile",
+        "weight": 0.7319141808994395
+      },
+      {
+        "word": "information",
+        "weight": 0.7241526834692935
+      },
+      {
+        "word": "internet",
+        "weight": 0.7146375190620772
+      },
+      {
+        "word": "broadband",
+        "weight": 0.7062384210645454
+      },
+      {
+        "word": "game",
+        "weight": 0.7057637272959871
+      },
+      {
+        "word": "data",
+        "weight": 0.7001060665175383
+      },
+      {
+        "word": "device",
+        "weight": 0.6988902358511037
+      },
+      {
+        "word": "console",
+        "weight": 0.6648796353636609
+      },
+      {
+        "word": "video",
+        "weight": 0.6626036387027967
+      },
+      {
+        "word": "gadget",
+        "weight": 0.6395393374647365
+      },
+      {
+        "word": "network",
+        "weight": 0.6346518336689291
+      },
+      {
+        "word": "content",
+        "weight": 0.6244268667416856
+      },
+      {
+        "word": "machine",
+        "weight": 0.6242633950818427
+      },
+      {
+        "word": "phone",
+        "weight": 0.6164472703853967
+      },
+      {
+        "word": "spam",
+        "weight": 0.612978436756283
+      },
+      {
+        "word": "message",
+        "weight": 0.6044025363007978
+      },
+      {
+        "word": "gaming",
+        "weight": 0.6023063831366512
+      },
+      {
+        "word": "mail",
+        "weight": 0.5946509793749821
+      },
+      {
+        "word": "research",
+        "weight": 0.5873934228626759
+      },
+      {
+        "word": "million",
+        "weight": 0.5782074651039306
+      },
+      {
+        "word": "sony",
+        "weight": 0.5703680173591205
+      },
+      {
+        "word": "blog",
+        "weight": 0.5649985399342039
+      },
+      {
+        "word": "program",
+        "weight": 0.5555234181947882
+      },
+      {
+        "word": "system",
+        "weight": 0.5530934197629287
+      },
+      {
+        "word": "used",
+        "weight": 0.5420763479037336
+      },
+      {
+        "word": "developer",
+        "weight": 0.5123934077156124
+      },
+      {
+        "word": "portable",
+        "weight": 0.5105703922662108
+      },
+      {
+        "word": "virus",
+        "weight": 0.5020893764276998
+      },
+      {
+        "word": "via",
+        "weight": 0.5006907228124498
+      },
+      {
+        "word": "camera",
+        "weight": 0.4913241409039779
+      },
+      {
+        "word": "tool",
+        "weight": 0.4780196994000169
+      },
+      {
+        "word": "gamers",
+        "weight": 0.4762298225487603
+      },
+      {
+        "word": "graphic",
+        "weight": 0.4732152517858783
+      },
+      {
+        "word": "xbox",
+        "weight": 0.4569958048376
+      },
+      {
+        "word": "apple",
+        "weight": 0.45486165617021723
+      },
+      {
+        "word": "different",
+        "weight": 0.4446910349540874
+      },
+      {
+        "word": "medium",
+        "weight": 0.44037169434425383
+      },
+      {
+        "word": "google",
+        "weight": 0.4185439044460264
+      },
+      {
+        "word": "customer",
+        "weight": 0.41541601820485435
+      },
+      {
+        "word": "image",
+        "weight": 0.4145933829076302
+      },
+      {
+        "word": "version",
+        "weight": 0.4102748237920638
+      },
+      {
+        "word": "cable",
+        "weight": 0.4003618441543972
+      },
+      {
+        "word": "connection",
+        "weight": 0.4001438323639721
+      },
+      {
+        "word": "psp",
+        "weight": 0.39877425046565274
+      },
+      {
+        "word": "file",
+        "weight": 0.3978791025503919
+      },
+      {
+        "word": "laptop",
+        "weight": 0.39577529075330176
+      },
+      {
+        "word": "nintendo",
+        "weight": 0.3943660562438216
+      },
+      {
+        "word": "mobile phone",
+        "weight": 0.3935889901753348
+      },
+      {
+        "word": "com",
+        "weight": 0.3928687873962501
+      },
+      {
+        "word": "halo",
+        "weight": 0.3887241734353199
+      },
+      {
+        "word": "offer",
+        "weight": 0.3876881949557309
+      },
+      {
+        "word": "popular",
+        "weight": 0.3737051369852066
+      },
+      {
+        "word": "available",
+        "weight": 0.37149697911347646
+      },
+      {
+        "word": "let",
+        "weight": 0.370507260580872
+      },
+      {
+        "word": "access",
+        "weight": 0.3691987125103699
+      },
+      {
+        "word": "robot",
+        "weight": 0.3688094773035794
+      },
+      {
+        "word": "search",
+        "weight": 0.3601441823605347
+      },
+      {
+        "word": "server",
+        "weight": 0.3516097608437683
+      },
+      {
+        "word": "fast",
+        "weight": 0.3482016822304409
+      },
+      {
+        "word": "blogger",
+        "weight": 0.34725109577614965
+      },
+      {
+        "word": "researcher",
+        "weight": 0.3464939467554525
+      },
+      {
+        "word": "around",
+        "weight": 0.34308214644392865
+      },
+      {
+        "word": "argonaut",
+        "weight": 0.34100136738804954
+      },
+      {
+        "word": "news website",
+        "weight": 0.34071863269927205
+      },
+      {
+        "word": "behind",
+        "weight": 0.3340158686885014
+      }
+    ]
+  },
+  "metadata": {
+    "top_n": 80,
+    "val_accuracy": 0.9798657718120806,
+    "best_C_svc": 0.5,
+    "best_alpha_cnb": 0.1
+  }
+}

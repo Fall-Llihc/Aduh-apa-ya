@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Model details — Aduh, apa ya?</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📰%3C/text%3E%3C/svg%3E" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" />
+<link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <i class="ti ti-sparkles"></i>
+        <span>Aduh, apa ya?</span>
+      </div>
+      <nav class="nav">
+        <a href="./index.html" class="nav-link">Classify</a>
+        <a href="./model.html" class="nav-link active">Model details</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-model">
+    <section class="hero">
+      <h1 class="display">Under the hood</h1>
+      <p class="body-lg muted">How the classifier was trained and what makes a word "diskriminatif" for each category.</p>
+    </section>
+
+    <section class="stats-row">
+      <div class="stat-card">
+        <p class="label-sm muted">Validation accuracy</p>
+        <p class="stat-value">97.99%</p>
+      </div>
+      <div class="stat-card">
+        <p class="label-sm muted">CV accuracy (5-fold)</p>
+        <p class="stat-value">98.15%</p>
+      </div>
+      <div class="stat-card">
+        <p class="label-sm muted">Training data</p>
+        <p class="stat-value">1.490 articles</p>
+      </div>
+      <div class="stat-card">
+        <p class="label-sm muted">Categories</p>
+        <p class="stat-value">5</p>
+      </div>
+    </section>
+
+    <section class="info-block">
+      <h2 class="headline-md">Pipeline</h2>
+      <ol class="pipeline-list">
+        <li><strong>Preprocessing</strong> — lowercase, hapus URL/angka/non-alfabet, tokenisasi NLTK, stopword removal (NLTK + 29 custom BBC stopwords), lemmatization WordNet.</li>
+        <li id="tfidf"><strong>TF-IDF vectorization</strong> — ngram_range=(1,2), max_features=20,000, sublinear_tf=True, min_df=2. Konfigurasi ini hasil eksperimen sistematis pada 4 parameter kunci.</li>
+        <li><strong>Stacking Classifier</strong> — 3 base estimators (LinearSVC, ComplementNB, Logistic Regression) digabung dengan meta-learner Logistic Regression. Setiap base model di-tune via GridSearchCV terlebih dahulu.</li>
+        <li><strong>Cross-validation</strong> — semua evaluasi menggunakan 5-fold Stratified CV dengan Pipeline yang benar untuk mencegah data leakage.</li>
+      </ol>
+    </section>
+
+    <section class="info-block">
+      <h2 class="headline-md">Top discriminative words per category</h2>
+      <p class="muted">Diekstrak dari koefisien LinearSVC. Kata-kata berikut paling kuat mengindikasikan setiap kategori.</p>
+      <div id="topWordsGrid" class="top-words-grid"></div>
+    </section>
+
+    <section class="info-block">
+      <h2 class="headline-md">Why this approach</h2>
+      <p>Model linear (LinearSVC, Logistic Regression) konsisten mengungguli model tree-based (Random Forest, Extra Trees) untuk data TF-IDF yang sparse dan berdimensi tinggi. Stacking ensemble menggabungkan kekuatan komplementer dari tiga model dengan pola error berbeda, sehingga prediksi akhir lebih robust.</p>
+    </section>
+
+    <section class="info-block">
+      <h2 class="headline-md">Limitations</h2>
+      <ul class="bullet-list">
+        <li>Dataset hanya BBC News (gaya penulisan Inggris British) — generalisasi ke media lain perlu diuji.</li>
+        <li>Hanya 5 kategori; topik di luar lima ini akan dipaksa masuk salah satunya.</li>
+        <li>Tech ↔ business overlap secara tematik — artikel teknologi korporat sering ambigu.</li>
+        <li>Input non-English diterjemahkan dulu ke English sebelum diklasifikasi.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <div class="container footer-inner">
+      <span class="muted small">© 2026 Kelompok 8 'Aduh' — Tugas Besar Text Mining</span>
+      <div class="footer-links">
+        <a href="./model.html">Stacking ensemble</a>
+        <a href="./model.html#tfidf">TF-IDF pipeline</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/config.js"></script>
+  <script src="./assets/js/model.js"></script>
+</body>
+</html>
