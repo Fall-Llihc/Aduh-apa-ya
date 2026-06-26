@@ -56,7 +56,7 @@
       const res = await fetch(`${CONFIG.API_URL}/classify`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text, auto_translate: true }),
+        body: JSON.stringify({ text, auto_translate: false }),
       });
 
       if (!res.ok) {
