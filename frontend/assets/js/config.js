@@ -7,7 +7,7 @@
 // │ Local dev:           http://localhost:7860                       │
 // └─────────────────────────────────────────────────────────────────┘
 const CONFIG = {
-  API_URL: "http://localhost:7860",
+  API_URL: "https://fall1hc-bbc-news-classifier-api.hf.space",
 
   CATEGORY_META: {
     business:      { icon: "ti-briefcase",      label: "business" },
